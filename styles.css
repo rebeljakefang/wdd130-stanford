@@ -147,6 +147,124 @@ footer {
     font-size: 1rem;
 }
 
+
+/*page 1 start*/
+.kermit_hate {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: auto;
+    gap: 35px;
+    align-items: center;
+
+
+}
+
+#r1_box {
+    grid-column: 2/10;
+    grid-row: 1/2;
+
+    border: 3px solid var(--orange);
+    outline: 4px solid var(--green);
+    border-radius: 50px;
+    padding: 20px;
+
+    background-color: #f4f4f4;
+}
+
+#r1_title {
+    margin-bottom: 15px;
+}
+
+#r1 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+#r1 img  {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#r1 p {
+    flex-grow: 1;
+}
+
+
+#r2_box {
+    grid-column: 2/10;
+    grid-row: 3/4;
+
+    border: 3px solid var(--orange);
+    outline: 4px solid var(--green);
+    border-radius: 50px;
+    padding: 20px;
+
+    background-color: #f4f4f4;
+}
+
+#r2_title {
+    margin-bottom: 15px;
+}
+
+#r2 {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+
+#r2 img  {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#r2 p {
+    flex-grow: 1;
+}
+
+#r3_box {
+    grid-column: 2/10;
+    grid-row: 5/6;
+
+    border: 3px solid var(--orange);
+    outline: 4px solid var(--green);
+    border-radius: 50px;
+    padding: 20px;
+
+    background-color: #f4f4f4;
+}
+
+#r3_title {
+    margin-bottom: 15px;
+}
+
+#r3 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+#r3 img  {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#r3 p {
+    flex-grow: 1;
+}
+
+/*page 1 end*/
+
+
+
+
+
+
 @media (max-width: 800px) {
     header {
         flex-direction: column;
